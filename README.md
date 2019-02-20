@@ -1,37 +1,41 @@
-## Welcome to GitHub Pages
+## Map of the crime rate in San Francisco
 
-You can use the [editor on GitHub](https://github.com/hoduchieu01/Coursera_Capstone/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+# 1. Introduction
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Some people want to move to living in San Francisco, so they want to find good
+location. One of the most important is safety. This project aims to analysis data
+of this city to find safe areas. We will explore crime rate in San Francisco,
+California to solve this problem.
 
-### Markdown
+# 2. Data
+Data collect from crime dataset in San Francisco
+https://cocl.us/sanfran_crime_dataset and San Francisco map:
+https://cocl.us/sanfran_geojson.
+Data include IncidntNum, Category, Descript, DayOfWeek, Date, Time,
+PdDistrict, Resolution, Address, Location
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![](https://i.imgur.com/jHS3PM7.png)
 
-```markdown
-Syntax highlighted code block
+# 3. Methodology
+We analysis data to view the total number of crimes in each neighborhood
+(Central, Northern, Park, Southern, Mission, Tenderloin, Richmond, Taraval,
+Ingleside, Bayview)
+After that, we use map of San Francisco to visualize this data. With the number,
+we can view areas where have a high-rate crime. And with map we can see
+easily about the area where safe. Therefore we can choose safe place to living.
 
-# Header 1
-## Header 2
-### Header 3
+# 4. Results
+This session shows some results after analyzing data.
 
-- Bulleted
-- List
+The table include the rate of crime in neighborhood
+![The table include the rate of crime in neighborhood.](https://imgur.com/gM4Wvna.png)
 
-1. Numbered
-2. List
+Crime rate map – San Francisco
+![Crime rate map – San Francisco](https://imgur.com/SlQbH82.png)
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/hoduchieu01/Coursera_Capstone/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+# 5. Conclusion
+In conclusion, after analyzing data and viewing this result, it is clearly seen that
+we can see the rate of crime in neighborhood in San Francisco. The highest rate
+is in Southern and the lowest rate is in Park. After reviewing rate of crime map,
+we recommend that people can choose some neighborhood to living such as
+park, tenderloin, Richmond.
