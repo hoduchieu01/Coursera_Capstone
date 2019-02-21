@@ -36,6 +36,7 @@ This session shows some results after analyzing data.
 The table include the rate of crime in neighborhood
 ![The table include the rate of crime in neighborhood.](https://imgur.com/gM4Wvna.png)
 
+
 Crime rate map – San Francisco
 ![Crime rate map – San Francisco](https://imgur.com/SlQbH82.png)
 
