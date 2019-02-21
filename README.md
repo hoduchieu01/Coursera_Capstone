@@ -16,6 +16,12 @@ PdDistrict, Resolution, Address, Location
 
 ![](https://i.imgur.com/jHS3PM7.png)
 
+Firstly, we can download dataset from: https://cocl.us/sanfran_crime_dataset &  https://cocl.us/sanfran_geojson and import dataset: through this code:
+
+`df = pd.read_csv('crime.csv')` 
+
+`SF_geo = r'san-francisco.geojson`
+
 ### 3. Methodology
 We analysis data to view the total number of crimes in each neighborhood
 (Central, Northern, Park, Southern, Mission, Tenderloin, Richmond, Taraval,
