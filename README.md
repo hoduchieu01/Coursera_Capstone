@@ -34,10 +34,11 @@ easily about the area where safe. Therefore we can choose safe place to living.
 This session shows some results after analyzing data.
 
 The table include the rate of crime in neighborhood
+<br/>
 ![The table include the rate of crime in neighborhood.](https://imgur.com/gM4Wvna.png)
 
-
 Crime rate map – San Francisco
+<br/>
 ![Crime rate map – San Francisco](https://imgur.com/SlQbH82.png)
 
 ### 5. Conclusion
